@@ -1,8 +1,56 @@
 body {
+    background-color: aliceblue;
     
 }
 h1 {
     text-align: center;
+}
+h2 {
+    font-size: 32px;
+    margin-top: 0%;
+    margin-bottom: 0px;
+
+}
+select{
+    display: block;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 4px;
+    padding: 10px;
+
+}
+.container {
+    max-width: 600px;
+    margin: 60px auto;
+    background: white;
+    padding: 30px;
+    box-shadow: rgba(100, 100, 111,0.2 ) 0px 7px 29px 0px;
+    border-radius: 10px;
+    
+
+}
+.city{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.2)
+
+
+}
+.city:last-child {
+    border: none;
+}
+
+.date {
+    
+}
+.time {
+    font-size: 40px;
+    font-weight: bold;
+}
+.time small {
+    font-size: 20px;
+    vertical-align: middle;
 }
 footer{
     text-align: center;
