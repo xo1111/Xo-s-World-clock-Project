@@ -1,14 +1,22 @@
 body {
-    background-color: aliceblue;
+    background-color:rgb(255, 255, 255);
     
 }
 h1 {
     text-align: center;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+     -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color:#718E51;
 }
 h2 {
     font-size: 32px;
     margin-top: 0%;
     margin-bottom: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color:#718E51;
+   
 
 }
 select{
@@ -24,16 +32,25 @@ select{
     margin: 60px auto;
     background: white;
     padding: 30px;
-    box-shadow: rgba(100, 100, 111,0.2 ) 0px 7px 29px 0px;
+    /**box-shadow: rgba(100, 100, 111,0.2 ) 0px 7px 29px 0px;**/
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.6);
     border-radius: 10px;
     
 
+}
+.background-image{
+    background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/139/467/original/pexels-arnie-chou-304906-927414.jpg?1723753027");
+    background-size:cover;
+    
 }
 .city{
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    border-bottom: 1px dashed rgba(0, 0, 0, 0.2)
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.305);
+    border-radius: 10px;
+    margin: 6px auto;
 
 
 }
@@ -42,7 +59,7 @@ select{
 }
 
 .date {
-    color: rgba(0, 0, 0, 0.6);
+    color: rgba(0, 0, 0, 0.8);
     
 }
 .time {
@@ -53,6 +70,10 @@ select{
     font-size: 20px;
     vertical-align: middle;
 }
+.homepage{
+    color: white;
+}
+
 footer{
     text-align: center;
 }
