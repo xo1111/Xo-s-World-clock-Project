@@ -18,6 +18,14 @@ function updateTime (){
     "h:mm:ss [<small>]A[</small>]"
   );
 
+    let australiaElement = document.querySelector("#australia");
+    let australiaDateElement = australiaElement.querySelector(".date");
+    let australiaTimeElement = australiaElement.querySelector(".time");
+    let australiaTime = moment().tz("Australia/Melbourne");
+
+    australiaDateElement.innerHTML = australiaTime.format("MMMM Do YYYY");
+    australiaTimeElement.innerHTML = australiaTime.format("h:mm:ss [<small>]A[</small>]");
+
 }
 updateTime();
 setInterval(updateTime, 1000);
